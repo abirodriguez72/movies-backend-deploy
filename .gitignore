@@ -1,14 +1,33 @@
-.venv/
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-*.log
-*.pot
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Django specific
 db.sqlite3
+*.log
 media/
 staticfiles/
+
+# Environment variables
+.env
+*.secret
+*.key
+
+# IDE / Editor junk
 .idea/
 .vscode/
+*.swp
 .DS_Store
-Thumbs.db
+
+# Compiled / cache
+*.egg-info/
+.eggs/
+*.lock
